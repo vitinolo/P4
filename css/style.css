@@ -815,7 +815,7 @@ h4 {
 }
 
 .tc-white {
-    color: white!important;
+    color:black!important;
     display:flex;
     justify-content: center;
 }
