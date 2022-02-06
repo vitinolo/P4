@@ -813,9 +813,8 @@ h4 {
 .bgc-atomic-tangerine {
     background-color: #F3976C;
 }
-
 .tc-white {
-    color:black!important;
+    color: white!important;
     display:flex;
     justify-content: center;
 }
