@@ -461,6 +461,7 @@ nav .caret {
     margin-bottom: 20px;
     font-size: 20px;
     font-weight:bold;
+    color:white;
 }
 
 .mg-lg {
@@ -685,6 +686,7 @@ label{
 
 .hero-bloc-text {
     font-size: 38px;
+    color:white;
 }
 
 .hero-bloc-text-sub {
@@ -813,10 +815,17 @@ h4 {
 .bgc-atomic-tangerine {
     background-color: #F3976C;
 }
+
 .tc-white {
     color: white!important;
     display:flex;
     justify-content: center;
+}
+.tc-black{
+    color: black!important;
+    display:flex;
+    justify-content: center;
+}
 }
 .parlons{
     font-size:25px;
@@ -825,6 +834,7 @@ h4 {
 .btn-atomic-tangerine {
     background: black;
     color: #FFFFFF!important;
+    border-color:white;
 }
 
 .btn-atomic-tangerine:hover {
