@@ -5196,7 +5196,7 @@ textarea.input-group-sm>.input-group-btn>.btn {
 
 .navbar-brand:focus,
 .navbar-brand:hover {
-    text-decoration: none
+        text-decoration: none
 }
 
 .navbar-brand>img {

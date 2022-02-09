@@ -97,11 +97,6 @@ a:hover {
     right: 0;
 }
 
-.texture-paper::before {
-    background: url("img/texture-paper.jpg");
-    background-size: 280px 280px;
-}
-
 .b-parallax {
     background-attachment: fixed;
 }
@@ -345,7 +340,9 @@ a:hover {
 .nav > li a:focus {
     background: transparent;
 }
-
+.nav > li a:focus{
+    outline:4px dotted red!important;
+}
 .navbar-toggle {
     margin: 10px 10px 0 0;
     border: 0px;
@@ -363,7 +360,18 @@ a:hover {
 .nav-invert .navbar .nav {
     float: left;
 }
-
+a:focus{
+    outline:4px dotted red!important;
+}
+ul li:focus{
+    outline:4px dotted red!important;
+}
+img:focus{
+    outline:4px dotted red!important;
+}
+.btn:focus{
+    outline:4px dotted red!important;
+}
 .nav-invert .navbar-header,
 .nav-invert .navbar-brand {
     float: right;
